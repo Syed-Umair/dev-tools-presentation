@@ -1,67 +1,103 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <meta charset='utf-8'>
   <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' />
-  <title>Big</title>
+  <title>DevTools</title>
   <link href='big.css' rel='stylesheet' type='text/css' />
   <link href='highlight.css' rel='stylesheet' type='text/css' />
   <style>
-    .new-shiny { background: #aaaaaa; }
+    .new-shiny {
+      background: #aaaaaa;
+    }
   </style>
   <script src='big.js'></script>
   <script src='highlight.js'></script>
   <script>hljs.initHighlightingOnLoad();</script>
 </head>
-<body class='light'>
-  <div>Node.js collab summit 2018</div>
-  <div>- the streams edition</div>
-  <div>
-    1. <em>Iterating streams</em> in core<br><br>
-    2. <em>Low level streams</em> in core/c++ (BOB)
-  </div>
-  <div>
-    1. <em>Iterating streams</em> in core
-  </div>
-  <div>
-    Streams in core are heavily used across the ecosystem
-  </div>
-  <div>
-    We cannot <em>"break the world"</em> but we can fix the inconsistencies
-  </div>
-  <div>
-    Things we wanna improve:
-  </div>
-  <div>
-    <ul>
-      <li>Test coverage</li>
-      <li>Error handling</li>
-      <li style="white-space: nowrap">readable-stream maintenance</li>
-    </ul>
-  </div>
-  <div>
-    Error handling
-  </div>
-  <div>
-    https://github.com/nodejs/node/issues/20096
-  </div>
-  <div>
-    TL;DR<br><br>
 
-    Make streams always call <em>.destroy()</em> as the final lifycycle step
+<body class='light'>
+  <div>Chrome DevTools
+    <br>
+    <br>
+    <i>
+      <em>Syed</em>
+      <br> Engineer @SwitchBoard</i>
   </div>
   <div>
+    What are Chrome DevTools??
+  </div>
+  <div>
+    Chrome DevTools is a set of web developer tools built directly into the Google Chrome browser.
+  </div>
+  <div>
+    Why use Chrome DevTools?
+  </div>
+  <div>
+    Well, To Conserve
+    <em>Time</em>
+  </div>
+  <div>
+    How to open DevTools?
     <ul>
-      <li>Make core use <em>.destroy()</em> to error handle streams</li>
-      <li>Every stream will emit <em>close</em> as the final step</li>
-      <li><em>close</em> is always the last of the stream events</li>
+      <li>
+        <em>Windows</em> =>
+        <br>
+        <b>ctrl+shift+i</b>
+      </li>
+      <li>
+        <em>Macintosh</em> =>
+        <br>
+        <b>cmnd+opt+i</b>
+      </li>
     </ul>
   </div>
   <div>
-    2. <em>Low level streams</em> in core
+    <em>Elements Panel</em> =>
+    <br> Iterate on the layout and design of your site by freely manipulating the DOM and CSS.
   </div>
   <div>
-    (@Fishrock123)
+    <em>Console Panel</em> =>
+    <br> Log diagnostic information during development or interact with the JavaScript on the page.
+  </div>
+  <div>
+    <em>Network Panel</em> =>
+    <br> Optimize page load performance and debug request issues.
+  </div>
+  <div>
+    <em>Sources Panel</em> =>
+    <br> Debug your JavaScript using breakpoints or connect your local files via Workspaces to use DevTools as a code editor.
+  </div>
+  <div>
+    <em>Performance Panel</em> =>
+    <br> Improve the runtime performance of your page by recording and exploring the various events that happen during the lifecycle
+    of a site.
+  </div>
+  <div>
+    <em>Memory Panel</em> =>
+    <br> Profile memory usage and track down leaks.
+  </div>
+  <div>
+    <em>Application Panel</em> =>
+    <br> Inspect all resources that are loaded, including IndexedDB or Web SQL databases, local and session storage, cookies,
+    Application Cache, images, fonts, and stylesheets.
+  </div>
+  <div>
+    <em>Security Panel</em> =>
+    <br> Debug mixed content issues, certificate problems, and more
+  </div>
+  <div>
+    Reference =>
+    <ul>
+      <li><a href="https://developers.google.com/web/tools/chrome-devtools/">https://developers.google.com/web/tools/chrome-devtools/</a></li>
+    </ul>
+  </div>
+  <div>
+    <em>Thank you all!</em><br>
+    Slides =><br>
+    <a href=https://syedumair.ml/dev-tools-presentation/index.html>https://syedumair.ml/dev-tools-presentation/index.html</a><br>
+    Happy Coding :)
   </div>
 </body>
 </html>

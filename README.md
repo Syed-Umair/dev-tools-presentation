@@ -1,5 +1,3 @@
-# node.js collab summit 2018
+# Dev Tools Presentation
 
-Streams workshop
-
-https://mafintosh.github.io/nodejs-collab-summit-2018
+Created to help doing presentation in Full Creative

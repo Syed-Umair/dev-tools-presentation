@@ -3,10 +3,10 @@
   font-style: normal;
   font-weight: 400;
   src:
-    local('Rubik'),
-    local('Rubik-Regular'),
-    url('./rubik-v4-latin-regular.woff2') format('woff2'),
-    url('./rubik-v4-latin-regular.woff') format('woff');
+    local('FiraCode'),
+    local('FiraCode-Regular'),
+    url('./FiraCode-Regular.woff2') format('woff2'),
+    url('./FiraCode-Regular.woff') format('woff');
 }
 
 html {
